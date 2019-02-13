@@ -1,0 +1,942 @@
+datos<-read.csv("/Users/ivanmendivelso/Desktop/mapa 1 en R.csv")
+pot
+library(pot)
+library(MASS)
+pot(calidad)
+pot(calidad, precio, main=dispersion1, xlab=calidad, ylab=precio, pch=18)
+plot(calidad, precio, main=dispersion1, xlab=calidad, ylab=precio, pch=18)
+ld()
+require(MASS)
+plot(calidad, precio, main=dispersion1, xlab=calidad, ylab=precio, pch=18)
+datos<-read.csv("/Users/ivanmendivelso/Desktop/mapa 1 en R.csv")
+plot(calidad, precio, main=dispersion1, xlab=calidad, ylab=precio, pch=18)
+datos<-read.csv("/Users/ivanmendivelso/Desktop/mapa 1 en R.csv")
+plot(calidad, precio, main=dispersion1, xlab=calidad, ylab=precio, pch=18)
+LS()
+ls()
+plot(calidad, precio, main="dispersion1", xlab="calidad", ylab="precio", pch=18)
+??plot
+plot(CALIDAD, PRECIO, main="dispersion1", xlab="calidad", ylab="precio", pch=18)
+LS
+ls
+ls()
+datos
+SELECT CALIDAD,PROCESOS FROM datos;
+datos[1:3, ]
+datos<-read.csv("/Users/ivanmendivelso/Desktop/mapa 1 en R.csv")
+datos[1:3, ]
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt")
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R")
+datos<-read.table(file="/Users/ivanmendivelso/Desktop/mapa 1 en R.txt")
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt")
+datos<-read.csv("/Users/ivanmendivelso/Desktop/mapa 1 en R.csv")
+datos[1:3, ]
+datos
+a<-PRECIO FROM datos
+CALIDAD
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", HEADER=TRUE)
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", header=TRUE)
+datos
+CALIDAD
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", header=TRUE, sep="\t")
+datos
+CALIDAD
+datos<-read.table(file.choose(), header=TRUE, sep="\t")
+datos<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", header=TRUE, sep="\t")
+datos
+datos1<-read.table(file.choose(), header=TRUE, sep="\t")
+datos1
+datos1<-read.table(file.choose(), header=TRUE, sep="\t")
+datos1
+datos
+ls
+ls()
+dim(datos)
+head(datos)
+tail(datos)
+harold <- c(2,3,4)
+harold
+rm(harold)
+harold
+names(datos)
+MARCA <- $MARCA
+mean(datos$PRECIO)
+plot(datos$CALIDAD, datos$PRECIO, main="dispersion1", xlab="calidad", ylab="precio", pch=18)
+plot(datos$CALIDAD, datos$PRECIO, main="dispersion1", xlab="calidad", ylab="precio", pch=15)
+datos$MARCA
+marca <- datos$MARCA
+marca
+PRECIO<-datos$PRECIO
+CALIDAD<-datos$CALIDAD
+PROCESOS<-datos$PROCESOS
+plot(CALIDAD, PRECIO, main="dispersion1", xlab="calidad", ylab="precio", pch=15)
+plot(CALIDAD, PROCESOS, main="dispersion1", xlab="calidad", ylab="precio", pch=15)
+attach(datos)
+rm(CALIDAD, PRECIO, PROCESOS)
+PROCESOS
+rm(CALIDAD)
+PRECIOS
+PROCESOS
+rm(PROCESOS)
+PROCESOS
+rm(PROCESOS)
+CALIDAD
+MARCA
+detach(datos)
+PROCESOS
+CALIDAD
+atach(datos)
+attach(datos)
+PROCESOS
+names(datos)
+class(MARCA)
+class(PRECIO)
+class(CALIDAD)
+PRECIO
+summary(datos)
+subdatos1<-datos[3:10, ]
+subdatos1
+subdatos2<-PRECIO[MARCA=="BesodeCoco"]
+subdatos2
+??plot
+require(stats) # for lowess, rpois, rnorm
+stats
+??plot
+intento1<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", header=TRUE, p="\t")
+intento1<-read.table("/Users/ivanmendivelso/Desktop/mapa 1 en R.txt", header=TRUE, sep="\t")
+intento1
+intento1<-read.table("/Users/ivanmendivelso/Desktop/General1.txt", header=TRUE, sep="\t")
+intento1
+names(intento1)
+dim(intento1)
+attach(intento1)
+FORMATO
+class(FORMATO)
+class(PRECIO)
+class(CALIDAD)
+PRECIO<-as.numeric
+class(PRECIO)
+PRECIO
+attach(intento1)
+class(PRECIO)
+rm(PRECIO)
+PRECIO
+class(PRECIO)
+PRECIO<-as.integer
+class(PRECIO)
+read.spss("/Users/ivanmendivelso/Desktop/GeneralPercha1.sav")
+base1<-read.spss("/Users/ivanmendivelso/Desktop/GeneralPercha1.sav")
+base1
+names(base1)
+dim(base1)
+class(FORMATO)
+class(SUBSECTOR)
+class(PRECIO)
+class(PROCESOS)
+base1<-read.spss("/Users/ivanmendivelso/Desktop/GeneralPercha1.sav", use.value.labels = FALSE)
+base1
+base1<-read.csv("/Users/ivanmendivelso/Desktop/GeneralPercha1.csv", header = TRUE)
+base1
+dim(base1)
+base1<-read.csv(file.choose(), header = TRUE)
+base1
+base1<-read.csv(file.choose(), header = TRUE)
+base1
+base2<-read.csv(file.choose(), header = TRUE)
+base2
+base2<-read.csv(file.choose(), header = TRUE)
+base2
+class(PROCESOS)
+mean(PROCESOS)
+PROCESOS <- as.numeric
+class(PROCESOS)
+rm(list=ls(all=TRUE))
+options(encoding = "UTF-8")
+installed.packages()
+require(sp)
+??install.packages
+isntall.packages(ps)
+isntall.package(ps)
+isntall.packages("sp")
+installed.packages()
+install.packages("sp")
+installed.packages()
+ls()
+rm(list=ls(all=TRUE))
+options(encoding = "UTF-8")
+library(sp)
+library(RColorBrewer)
+library(ggplot2)
+maptools
+library(maptools)
+library(scales)
+setwd(""~/Desktop/COL_adm"")
+setwd(""~/Desktop/COL_adm")
+setwd(""~/Escritorio/COL_adm")
+setwd("/Users/ivanmendivelso/Desktop")
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+grupo2[ , "Porcentaje"] <- runif(nrow(grupo2), 0, 1)#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="black", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+grupo2 <- data.frame(id=unique(ohsColI2[,c("id")]))
+grupo2
+scan()
+vector1 <- scan()
+vector1
+grupo2[ , "Porcentaje"] <- vector1
+grupo2
+ohsColI2
+mapaLau <- merge(ohsColI2, grupo2, by = "id")
+mapaLau
+ohsColI2
+mapaLau
+ohsColI2
+mapaLau
+ohsColI2
+grupo2
+ohsColI2 <- merge(OhsColI2, grupo2, by = "id")
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="black", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))
+mapColDep
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")
+ohsColI2 <- fortify(ohsCol2)
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))
+grupo2[ , "Porcentaje"] <- vector1
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="black", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="red", size = 0.5) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+boyaca <- scan()
+boyaca <- scan()
+boyaca
+grupo2[ , "Porcentaje"] <- boyaca
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="withe", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="red", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+grupo2[ , "Porcentaje"] <- boyaca
+grupo2
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="red", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))
+grupo2[ , "Porcentaje"] <- boyaca
+grupo2
+rm(list=ls(all=TRUE))
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))
+scan()
+boyaca <- scan()
+grupo2[ , "Porcentaje"] <- boyaca
+grupo2
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="red", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))
+brewer.pal(n, name)#
+display.brewer.pal(n, name)#
+display.brewer.all(n=NULL, type="all", select=NULL, exact.n=TRUE,#
+colorblindFriendly=FALSE)#
+brewer.pal.info
+YlOrRd
+brewer.pal(4, Yl0rRd)
+brewer.pal(4, YlOrRd)
+brewer.pal(4, Dark2)
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0#
+0#
+0#
+0#
+0#
+1#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))
+boyaca <- scan()#
+0#
+0#
+0#
+0#
+0#
+1#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+0#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="yellow", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="yellow", size = 0.7) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="black", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Colombia") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0#
+1#
+1#
+0#
+0#
+0#
+0#
+1#
+1#
+0#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+0#
+0#
+0#
+1#
+1#
+1#
+0#
+0#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0#
+1#
+1#
+0#
+0#
+0#
+0#
+1#
+1#
+0#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+0#
+0#
+0#
+1#
+1#
+1#
+0#
+0#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="green", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Ampliacion de Cobertura") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0#
+1#
+1#
+0#
+0#
+0#
+0#
+1#
+1#
+0#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+0#
+0#
+0#
+1#
+1#
+1#
+0#
+0#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="white", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0#
+1#
+1#
+0#
+0#
+0#
+0#
+1#
+1#
+0#
+1#
+1#
+1#
+0#
+1#
+1#
+1#
+1#
+1#
+1#
+0#
+1#
+0#
+0#
+0#
+1#
+1#
+1#
+0#
+0#
+1#
+1#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep#
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0,32#
+0#
+0#
+0,32#
+0,32#
+0,32#
+0,32#
+0#
+0#
+0,32#
+0#
+0#
+0#
+0,32#
+0#
+0#
+0#
+0#
+0#
+0#
+0,32#
+0#
+0,32#
+0,32#
+0,32#
+0#
+0#
+0#
+0,32#
+0,32#
+0#
+0#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0.32#
+0#
+0#
+0.32#
+0.32#
+0.32#
+0.32#
+0#
+0#
+0.32#
+0#
+0#
+0#
+0.32#
+0#
+0#
+0#
+0#
+0#
+0#
+0.32#
+0#
+0.32#
+0.32#
+0.32#
+0#
+0#
+0#
+0.32#
+0.32#
+0#
+0#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Ampliacion de Cobertura") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+0.32#
+0.12#
+0.12#
+0.32#
+0.32#
+0.32#
+0.32#
+0.12#
+0.12#
+0.32#
+0.12#
+0.12#
+0.12#
+0.32#
+0.12#
+0.12#
+0.12#
+0.12#
+0.12#
+0.12#
+0.32#
+0.12#
+0.32#
+0.32#
+0.32#
+0.12#
+0.12#
+0.12#
+0.32#
+0.32#
+0.12#
+0.12#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="Ampliacion de Cobertura") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+1#
+0.12#
+0.12#
+1#
+1#
+1#
+1#
+0.12#
+0.12#
+1#
+0.12#
+0.12#
+0.12#
+1#
+0.12#
+0.12#
+0.12#
+0.12#
+0.12#
+0.12#
+1#
+0.12#
+1#
+1#
+1#
+0#
+0.12#
+0.12#
+1#
+1#
+0.12#
+0.12#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
+rm(list=ls(all=TRUE))#
+options(encoding = "UTF-8")  #
+library(sp)#
+library(RColorBrewer)#
+library(ggplot2)#
+library(maptools)#
+library(scales)#
+setwd("/Users/ivanmendivelso/Desktop/COL_adm")#
+ohsCol2 <- readShapeSpatial("COL_adm1.shp")#
+ohsColI2 <- fortify(ohsCol2)#
+grupo2 <- data.frame(id = unique(ohsColI2[ , c("id")]))#
+boyaca <- scan()#
+1#
+0.52#
+0.52#
+1#
+1#
+1#
+1#
+0.52#
+0.52#
+1#
+0.52#
+0.52#
+0.52#
+1#
+0.52#
+0.52#
+0.52#
+0.52#
+0.52#
+0.52#
+1#
+0.52#
+1#
+1#
+1#
+0#
+0.52#
+0.52#
+1#
+1#
+0.52#
+0.52#
+#
+grupo2[ , "Porcentaje"] <- boyaca#
+ohsColI2 <- merge(ohsColI2, grupo2, by = "id")#
+mapColDep <- ggplot() + geom_polygon(data=ohsColI2, aes(x=long, y=lat, group = group, fill = Porcentaje), colour ="blue", size = 0.1) + labs(title = "Colombia", fill = "") + labs(x="",y="",title="De BoyacA en sus Campos...") + scale_x_continuous(limits=c(-80,-65))+ scale_y_continuous(limits=c(-5,13))#
+mapColDep
