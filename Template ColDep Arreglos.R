@@ -58,6 +58,6 @@ mapColDep
 ggsave(mapColDep, file = "Rural.png", width = 5, height = 4.5, type = "cairo-png")
 getwd
 ls()
-help(aes)
+
 
 
